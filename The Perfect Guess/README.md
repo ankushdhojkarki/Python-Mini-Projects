@@ -23,4 +23,4 @@ This is a simple terminal-based number guessing game built using Python. The gam
 4. Run the game using:
 
 ```bash
-python pThePerfectGuess.py
+python ThePerfectGuess.py
