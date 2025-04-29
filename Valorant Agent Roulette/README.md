@@ -28,4 +28,4 @@ This is a simple terminal-based Python script that randomly assigns a Valorant a
 
 ```bash
 python agent_roulette.py
-hh
+
