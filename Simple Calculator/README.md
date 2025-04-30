@@ -1,4 +1,4 @@
-# 🎯 Simple Arithmetic Calculator in Python
+# 🎯 Simple Calculator in Python
 
 This is a terminal-based Python script that performs basic arithmetic operations. The user can input two numbers and choose an operation to perform. The script supports addition, subtraction, multiplication, and division.
 
