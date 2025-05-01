@@ -25,4 +25,11 @@ This is a simple terminal-based Python script that merges multiple PDF files int
 2. Install the required library by running:
 
    ```bash
-   pip install pypdf
+      pip install pypdf
+   
+3. Place pdf_merger.py in your project folder.
+
+4. Put the PDF files you want to merge in the same folder.
+
+5. Open your terminal or command prompt and run:
+      python pdf_merger.py
