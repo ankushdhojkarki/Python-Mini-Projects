@@ -16,7 +16,7 @@ This is a lightweight terminal-based Python script that reminds you to drink wat
 
 ## 📁 Files Included
 
-- `drink_water_reminder.py` — The main script that triggers hourly hydration reminders.
+- `drinkwater.py` — The main script that triggers hourly hydration reminders.
 
 ---
 
