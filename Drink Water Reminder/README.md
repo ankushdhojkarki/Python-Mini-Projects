@@ -34,6 +34,6 @@ This is a lightweight terminal-based Python script that reminds you to drink wat
 
 5. Run the script using: python drink_water_reminder.py
 
-💡 This script must be left running in the terminal to keep receiving hourly notifications.
+  💡 This script must be left running in the terminal to keep receiving hourly notifications.
 
-📎 Tip: You can customize the interval by modifying the time.sleep(60*60) line to suit your preference.
+  📎 Tip: You can customize the interval by modifying the time.sleep(60*60) line to suit your preference.
