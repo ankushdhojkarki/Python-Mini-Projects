@@ -1,27 +1,18 @@
-🎯 Drink Water Reminder – Desktop Notification App  
-A simple Python script that reminds you to drink water every hour using desktop notifications. It runs in the background and helps promote healthy hydration habits.
+🎯 Drink Water Reminder  
+This is a terminal-based Python script that sends a desktop notification every hour reminding you to drink water. It's a simple wellness tool that helps you stay hydrated throughout your work or study sessions.
 
 📌 How It Works  
-- The script continuously runs in a loop.  
-- Every hour, it prints a message and sends a desktop notification reminding you to drink water.  
-- The notification appears using the `plyer` library's notification module.  
+- The script runs in an infinite loop.  
+- Every hour (`60 * 60` seconds), it prints a message in the terminal.  
+- Simultaneously, it uses `plyer` to show a desktop notification with a hydration reminder.  
 
 📁 Files Included  
-- `drink_water_reminder.py` — The main Python script that sends hourly water reminders.  
+- `drink_water_reminder.py` — The main script that triggers hourly reminders using terminal print and desktop notifications.
 
 ▶️ How to Run  
-
 Make sure you have Python installed.
 
-1. **Install the required package**:
+1. Install the required package:
 
 ```bash
 pip install plyer
-Run the script:
-
-bash
-Copy code
-python drink_water_reminder.py
-💡 This script must be left running in the terminal to keep receiving hourly notifications.
-
-📎 Tip: You can customize the interval by modifying the time.sleep(60*60) line to suit your preference.
