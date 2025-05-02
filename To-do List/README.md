@@ -34,10 +34,11 @@ This is a beginner-friendly command-line To-do List application built using Pyth
     python main.py
 
 🧠 Features
-Add Task: Input a new task to be added to your list.
 
-View Tasks: Display all current tasks with their status.
+--> Add Task: Input a new task to be added to your list.
 
-Remove Task: Delete a task from your list.
+--> View Tasks: Display all current tasks with their status.
 
-Quit: Close the application.
+--> Remove Task: Delete a task from your list.
+
+--> Quit: Close the application.
