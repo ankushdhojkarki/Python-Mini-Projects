@@ -1,18 +1,39 @@
-🎯 Drink Water Reminder  
-This is a terminal-based Python script that sends a desktop notification every hour reminding you to drink water. It's a simple wellness tool that helps you stay hydrated throughout your work or study sessions.
+# 🎯 Drink Water Reminder – A Simple Hourly Notification in Python
 
-📌 How It Works  
-- The script runs in an infinite loop.  
-- Every hour (`60 * 60` seconds), it prints a message in the terminal.  
-- Simultaneously, it uses `plyer` to show a desktop notification with a hydration reminder.  
+This is a lightweight terminal-based Python script that reminds you to drink water every hour. It displays a message in the terminal and sends a system notification to keep you hydrated.
 
-📁 Files Included  
-- `drink_water_reminder.py` — The main script that triggers hourly reminders using terminal print and desktop notifications.
+---
 
-▶️ How to Run  
-Make sure you have Python installed.
+## 📌 How It Works
 
-1. Install the required package:
+- The script runs an infinite loop using `while True`.
+- Every hour (60 minutes), it:
+  - Prints a message in the terminal: “Please sip some water!”
+  - Sends a system notification using the `plyer` library.
+- Keeps reminding you until you stop the script manually.
+
+---
+
+## 📁 Files Included
+
+- `drink_water_reminder.py` — The main script that triggers hourly hydration reminders.
+
+---
+
+## ▶️ How to Run
+
+1. Make sure you have Python installed.
+2. Install the required package by running:
 
 ```bash
 pip install plyer
+Save the script as drink_water_reminder.py.
+
+Open your terminal or command prompt.
+
+Run the script using:
+
+bash
+Copy code
+python drink_water_reminder.py
+💡 To stop the reminder, press Ctrl + C in the terminal.
