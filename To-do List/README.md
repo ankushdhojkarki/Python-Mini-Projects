@@ -30,8 +30,8 @@ This is a beginner-friendly command-line To-do List application built using Pyth
 4. Navigate to the directory containing the script.
 5. Run the application using:
 
-```bash
-python main.py
+    ```bash
+    python main.py
 
 🧠 Features
 Add Task: Input a new task to be added to your list.
