@@ -1,6 +1,6 @@
 # ✅ To-do List – A Simple Task Manager in Python
 
-This is a beginner-friendly command-line To-do List application built using Python. It allows users to add, view, mark, and remove tasks efficiently through an interactive menu.
+This is a beginner-friendly command-line To-do List application built using Python. It allows users to add, view, and remove tasks efficiently through an interactive menu.
 
 ---
 
@@ -37,7 +37,7 @@ This is a beginner-friendly command-line To-do List application built using Pyth
 
 --> Add Task: Input a new task to be added to your list.
 
---> View Tasks: Display all current tasks with their status.
+--> View Tasks: Display all current tasks.
 
 --> Remove Task: Delete a task from your list.
 
