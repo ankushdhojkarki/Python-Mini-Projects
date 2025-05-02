@@ -25,11 +25,8 @@ This is a lightweight terminal-based Python script that reminds you to drink wat
 1. Make sure you have Python installed.
 2. Install the required package by running:
 
-```bash
-pip install plyer
-
-
-
+    ```bash
+    pip install plyer
 
 3. Save the script as drink_water_reminder.py.
 
