@@ -27,13 +27,13 @@ This is a lightweight terminal-based Python script that reminds you to drink wat
 
 ```bash
 pip install plyer
-Save the script as drink_water_reminder.py.
 
-Open your terminal or command prompt.
+3. Save the script as drink_water_reminder.py.
 
-Run the script using:
+4. Open your terminal or command prompt.
 
-bash
-Copy code
-python drink_water_reminder.py
-💡 To stop the reminder, press Ctrl + C in the terminal.
+5. Run the script using: python drink_water_reminder.py
+
+💡 This script must be left running in the terminal to keep receiving hourly notifications.
+
+📎 Tip: You can customize the interval by modifying the time.sleep(60*60) line to suit your preference.
