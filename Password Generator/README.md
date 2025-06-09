@@ -14,7 +14,7 @@
 - Handles invalid inputs using try-except blocks.
 
 📁 Files Included  
-- mainr.py — Main Python script for the password generator.
+- main.py — Main Python script for the password generator.
 
 ▶️ How to Run  
 1. Open your terminal or command prompt.  
