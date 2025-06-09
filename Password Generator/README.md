@@ -1,28 +1,28 @@
 🎯 Password Generator  
-A simple, interactive terminal-based program that generates strong, random passwords based on the user's preferences.
+    A simple terminal-based program to generate strong, random passwords based on user preferences.
 
 📌 How It Works  
-- Prompts the user to choose whether to include:  
-  • Letters (uppercase and lowercase)  
-  • Numbers  
-  • Symbols (e.g., !@#$%&*)  
-- Makes sure the user selects at least one character type.  
-- Asks for the desired password length and validates the input.  
-- Generates a random password using the selected criteria.  
-- Displays the password.  
-- Asks the user if they want to generate another one.  
-- Handles invalid input using a `try-except` block.
+- Asks the user if they want to include:
+  - Letters (uppercase and lowercase)
+  - Numbers
+  - Symbols (!@#$%&*)
+- Ensures at least one character type is selected.
+- Prompts for the desired password length and validates input.
+- Randomly generates a password using the selected options.
+- Displays the password on the screen.
+- Offers to generate another password or exit.
+- Handles invalid inputs using try-except blocks.
 
 📁 Files Included  
-- `mainr.py` — Main Python script for the password generator.
+- mainr.py — Main Python script for the password generator.
 
 ▶️ How to Run  
 1. Open your terminal or command prompt.  
-2. Navigate to the folder where the file is located.  
-3. Run the script with:
+2. Navigate to the directory containing the file.  
+3. Run the following command:
 
-    ```bash
-    python main.py
-4. Follow the prompts to generate your password.
+   python main.py
+
+4. Follow the on-screen instructions to generate your password.
 
 
