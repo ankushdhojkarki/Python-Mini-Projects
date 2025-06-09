@@ -1,30 +1,27 @@
 🎯 Password Generator  
-    A simple, interactive terminal program that helps users create strong, random passwords based on their preferences.
+    A simple, interactive terminal-based program that generates strong, random passwords based on the user's preferences.
 
 📌 How It Works  
-- The program asks the user which types of characters to include in the password:  
-  - Letters (uppercase and lowercase)  
-  - Numbers  
-  - Symbols (e.g., !, @, #, etc.)  
-- It ensures the user selects at least one character type to avoid an empty password.  
-- The user is prompted to enter the desired length of the password (must be a positive number).  
-- A random password is generated using the selected character types.  
-- The generated password is displayed to the user.  
-- Users can choose to generate more passwords or exit the program.  
-- Invalid inputs (e.g., non-numeric values or negative numbers) are handled gracefully with clear error messages.
+- Prompts the user to choose whether to include:
+  - Letters (both uppercase and lowercase)
+  - Numbers
+  - Symbols (like !@#$%&*)
+- Ensures the user selects at least one character type.
+- Asks for the desired password length and validates the input.
+- Generates a random password of that length using the selected character types.
+- Displays the generated password.
+- Offers the option to generate another password or exit.
+- Handles invalid inputs gracefully using a `try-except` block.
 
 📁 Files Included  
-- `main.py` — Main Python script for the password generator program.
+- `main.py` — Main script that runs the password generator.
 
 ▶️ How to Run  
-1. Open your terminal or command prompt.  
-2. Navigate to the project directory containing `main.py`.  
-3. Run the script using the command:
+1. Open your terminal and navigate to the folder where the script is saved, then run:
 
-   ```bash
-   python main.py
-   
-4. Follow the on-screen prompts to create your password.
-    
+    ```bash
+    python main.py
+
+2. Follow the prompts to generate your custom password.
 
 
