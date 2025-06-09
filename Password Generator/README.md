@@ -19,6 +19,7 @@ A simple, interactive terminal program that helps users create strong, random pa
 3. Run the script using the command:  
 ```bash
 python password_generator.py
+
 4. Follow the on-screen prompts to create your password.
     
 
