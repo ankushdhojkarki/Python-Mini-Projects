@@ -22,7 +22,7 @@
 3. Run the script using the command:
 
    ```bash
-   python password_generator.py
+   python main.py
    
 4. Follow the on-screen prompts to create your password.
     
