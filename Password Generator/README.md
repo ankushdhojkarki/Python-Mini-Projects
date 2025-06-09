@@ -20,9 +20,8 @@
 1. Open your terminal or command prompt.  
 2. Navigate to the directory containing the file.  
 3. Run the following command:
-
-   python main.py
-
+       ```bash
+       python main.py
 4. Follow the on-screen instructions to generate your password.
 
 
