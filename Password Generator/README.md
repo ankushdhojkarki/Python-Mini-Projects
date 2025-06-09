@@ -11,11 +11,11 @@ A simple, interactive terminal program that helps users create strong, random pa
 - Invalid inputs (e.g., non-numeric length) are handled gracefully with error messages, prompting the user to try again.
 
 📁 Files Included  
-- `password_generator.py` — Main Python script for the password generator program.
+- `main.py` — Main Python script for the password generator program.
 
 ▶️ How to Run  
 1. Open your terminal or command prompt.  
-2. Navigate to the project directory containing `password_generator.py`.  
+2. Navigate to the project directory containing `main.py`.  
 3. Run the script using the command:  
     ```bash
     python password_generator.py
