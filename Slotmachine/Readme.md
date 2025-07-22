@@ -15,17 +15,19 @@ This is a simple terminal-based slot machine game built using Python. The player
 
 ## 📁 Files Included
 
-- `slotmachine.py` — The main script that runs the slot machine game.
+- `main.py` — The main script that runs the slot machine game.
 
 ---
 
 ## ▶️ How to Run
 
 1. Make sure you have Python installed.
-2. Save the script as `slotmachine.py`.
+2. Save the script as `main.py`.
 3. Open your terminal or command prompt.
 4. Run the script using:
-5. Follow the on-screen instructions to deposit money, place bets, and spin the machine.
+   ```bash
+   python slotmachine.py
+6. Follow the on-screen instructions to deposit money, place bets, and spin the machine.
 
 ---
 
