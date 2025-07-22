@@ -26,7 +26,7 @@ This is a simple terminal-based slot machine game built using Python. The player
 3. Open your terminal or command prompt.
 4. Run the script using:
    ```bash
-   python slotmachine.py
+   python main.py
 6. Follow the on-screen instructions to deposit money, place bets, and spin the machine.
 
 ---
