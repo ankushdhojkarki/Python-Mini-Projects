@@ -25,6 +25,7 @@ This is a beginner-friendly terminal-based calculator built using Python. The sc
 2. Save the script as `mathematical_operations.py`.
 3. Open your terminal or command prompt.
 4. Run the script using:
+    bash python mathematical_operations.py
 
 5. Follow the menu prompts to perform various calculations.
 
