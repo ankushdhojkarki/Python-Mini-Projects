@@ -24,7 +24,7 @@ This is a simple Python script that generates the multiplication table for a giv
 1. Make sure you have Python installed.
 2. Save the script as `multiplication_table.py`.
 3. Open your terminal or command prompt.
-4. Run the script using:
+4. Run the script using: `python multiplication_table.py`
 5. Enter a number when prompted to view its multiplication table.
 
 ---
