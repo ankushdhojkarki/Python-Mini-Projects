@@ -62,6 +62,7 @@ This is more than a mini-project — it’s my learning journey.
 By starting simple and improving step by step, I’m learning how to take an idea from scratch and grow it into something meaningful and useful.
 
 ## 👉 Follow along as I keep updating this project and sharing progress here and on LinkedIn
+LinkedIn: https://www.linkedin.com/in/ankush-dhoj-karki-59b0742ab
 
 ---
 
