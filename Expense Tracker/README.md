@@ -18,7 +18,7 @@ This is a simple terminal-based expense tracker built using Python. The program 
 
 ## 📁 Files Included
 
-- `expense_tracker.py` — The main script to manage expenses.
+- `mainr.py` — The main script to manage expenses.
 
 ---
 
@@ -41,4 +41,3 @@ This is a simple terminal-based expense tracker built using Python. The program 
 
 ---
 
-Made with 📝 by Ankush Dhoj Karki
