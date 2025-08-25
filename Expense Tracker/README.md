@@ -18,7 +18,7 @@ This is a simple terminal-based expense tracker built using Python. The program 
 
 ## 📁 Files Included
 
-- `mainr.py` — The main script to manage expenses.
+- `main.py` — The main script to manage expenses.
 
 ---
 
