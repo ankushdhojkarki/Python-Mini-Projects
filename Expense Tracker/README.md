@@ -1,57 +1,45 @@
-💰 Expense Tracker – From Terminal App to Web Application
+# 💰 Expense Tracker – A Python Program to Manage Expenses
 
-This is my personal project where I’m building an Expense Tracker step by step.
-I’m starting with a basic terminal-based version in Python, and my long-term goal is to evolve this into a fully functional web app using Django (and eventually deploy it for real-world use).
+This is a simple terminal-based expense tracker built using Python. The program allows users to record expenses, view them, and keep track of spending in an organized way.
 
-This project is not just about the final product — it’s about the journey of learning and building.
+---
 
-📌 Project Vision
+## 📌 How It Works
 
-Start with a Python terminal-based expense tracker
+- Prompts the user with a menu of options:
+  - Add a new expense (with description and amount).
+  - View all recorded expenses.
+  - Calculate the total amount spent.
+  - Exit the program.
+- Stores expenses in memory during the session.
+- Displays expenses in a clean and readable format.
 
-Add features step by step (logging, categorizing, summaries, etc.)
+---
 
-Transition into a Django-powered web application
+## 📁 Files Included
 
-Deploy it so it can be accessed online as a real tool
+- `expense_tracker.py` — The main script to manage expenses.
 
-📁 Current Files
+---
 
-expense_tracker.py — The initial Python terminal-based version
+## ▶️ How to Run
 
-▶️ How to Run (Current Version)
+1. Make sure you have Python installed.
+2. Save the script as `expense_tracker.py`.
+3. Open your terminal or command prompt.
+4. Run the script using: python expense_tracker.py
+5. Follow the menu prompts to add or view expenses.
 
-Make sure you have Python installed.
+---
 
-Clone this repository:
+## 🧮 Features
 
-git clone https://github.com/ankushdhojkarki/Expense-Tracker.git
+- Add expenses with description and amount.
+- View all saved expenses in a list format.
+- Display the total of all expenses.
+- Simple and beginner-friendly structure using lists/dictionaries.
+
+---
 
 
-Run the script in your terminal:
 
-python expense_tracker.py
-
-🎯 Current Features (Terminal Version)
-
-Log expenses with amount and category
-
-View summaries of expenses
-
-Simple menu-driven interface
-
-🚀 Roadmap
-
-✔️ Build terminal-based version with Python
-⬜ Add more detailed summaries and expense categories
-⬜ Transition into Django web app
-⬜ Add authentication and user accounts
-⬜ Deploy fully functional app online
-
-🌱 Why This Project?
-
-This is more than a mini-project — it’s my learning journey.
-By starting simple and improving step by step, I’m learning how to take an idea from scratch and grow it into something meaningful and useful.
-
-👉 Follow along as I keep updating this project and sharing progress here and on LinkedIn
-.
