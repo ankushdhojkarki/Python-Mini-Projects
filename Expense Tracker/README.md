@@ -6,7 +6,7 @@ I’m starting with a basic terminal-based version in Python, and my long-term g
 This project is not just about the final product — it’s about the journey of learning and building.
 
 ---
-## 📌 project Vision
+## 🏗️ project Vision
 - Start with a Python terminal-based expense tracker
 
 - Add features step by step (logging, categorizing, summaries, etc.)
