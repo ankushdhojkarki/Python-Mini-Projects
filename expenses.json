@@ -1,0 +1,22 @@
+{
+    "Food": [
+        [
+            "Burger",
+            490
+        ],
+        [
+            "Pizza",
+            1300
+        ]
+    ],
+    "Transport": [
+        [
+            "Pathao Bike",
+            130
+        ],
+        [
+            "Indrive Bike",
+            115
+        ]
+    ]
+}

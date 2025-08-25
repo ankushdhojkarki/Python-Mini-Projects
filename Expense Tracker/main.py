@@ -1,4 +1,21 @@
-expenses = {}
+import json
+import os
+
+if os.path.exists("expenses.json"):
+
+    try:
+        with open("expenses.json", "r") as file:
+            expenses = json.load(file)
+    except json.JSONDecodeError:
+        print(f"The file was expty or corrupted. Starting fresh...")
+        expenses = {}
+
+else:        
+    expenses = {}
+
+def save_expenses():
+    with open("expenses.json", "w") as file:
+        json.dump(expenses, file, indent = 4)    
 
 while True:
     try:
@@ -13,6 +30,7 @@ while True:
             user_choice_item = input("Enter the item name: ").title().strip()
             user_choice_amount = int(input("Enter the amount: "))
             expenses[user_choice_category].append((user_choice_item, user_choice_amount))
+            save_expenses()
 
         elif user_choice == 2:  # View category and expenses
             if len(expenses) == 0:
@@ -59,6 +77,7 @@ while True:
                             if expense[0].lower() == user_selection_item_remove:
                                 expenses[user_selection_category].remove(expense)
                                 print(f"{expense[0]} has been removed successfully.")
+                                save_expenses()
                                 found = True
                                 break
 
