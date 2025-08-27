@@ -85,7 +85,7 @@ while True:
                             print("Expense not found.")
                 else:
                     print("Category does not exist!")
-
+    
         elif user_choice == 5:  # Exit the program
             print("Goodbye!")
             break
@@ -95,3 +95,4 @@ while True:
 
     except ValueError:
         print("Invalid input! Please enter a number between 1 and 5.")
+

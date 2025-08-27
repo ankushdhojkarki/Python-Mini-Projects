@@ -3,11 +3,11 @@ while True:
         fnum = int(input("Enter the first number: "))
         snum = int(input("Enter the second number: "))
 
-        print("\nWhat kind of arithmetic operation do you want to perform?")
+        print("\nWhich arithmetic operation do you want to perform?")
         print("Press '+' for addition.")
         print("Press '-' for subtraction.")
         print("Press '/' for division.")
-        print("Press '*' for multiplication.")
+        print("Press '*' for multiplication.\n")
 
         operation = input("Enter the operation you would like to perform: ")
 
@@ -20,7 +20,7 @@ while True:
                 if snum == 0:
                     print("Division by zero is not allowed.")
                 else:
-                    print(f"{fnum} divided by {snum} is: {fnum / snum}")
+                    print(f"The quotient of {fnum} and {snum} is {float(fnum / snum)}")
             case "*":
                 print(f"The product of {fnum} and {snum} is: {fnum * snum}")
             case _:
@@ -30,7 +30,8 @@ while True:
         print("Enter a valid value for first and second number.")
 
     again = input(
-        "\nDo you want to perform another calculation? (yes/no): ").lower()
-    if again not in ("yes", "y"):
+        "\nDo you want to perform another calculation? (yes/no): ").lower().strip()
+    
+    if again != ("yes", "y"):
         print("Goodbye!")
         break
