@@ -2,7 +2,7 @@
 
 A simple Python project that simulates rolling one or more dice. Each time the user presses **Enter**, the program rolls the dice and shows random values between 1 and 6 using Python’s `random` module.
 
-This project is part of the **Python Mini Projects** collection to practice Python basics like loops, functions, and modules such as `random`. :contentReference[oaicite:0]{index=0}
+This project is part of the **Python Mini Projects** collection to practice Python basics like loops, functions, and modules such as `random`.
 
 ---
 
