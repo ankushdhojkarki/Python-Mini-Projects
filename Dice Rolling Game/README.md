@@ -24,17 +24,18 @@ Make sure you have **Python 3.x** installed on your system. You can download it 
 ```bash
 https://www.python.org/downloads
 
-## ▶️ How to Use
+
+### ▶️ How to Use
 
   - Open a terminal in the Dice Rolling Game folder
   - Run: python dice_rolling_game.py
   - Follow the on-screen instructions
 
-## 🛠️ How It Works
+### 🛠️ How It Works
 
 The game uses Python’s built-in random module to simulate the roll of one or more six-sided dice. Each roll produces a different number from 1 to 6 (inclusive).
 
-## 💡 Learning Goals
+### 💡 Learning Goals
 
   By completing this project, you’ll practice:
 
