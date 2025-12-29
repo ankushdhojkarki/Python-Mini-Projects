@@ -1,5 +1,5 @@
 import qrcode
 
-img = qrcode.make('https://www.accaglobal.com/gb/en/student/exam-entry-and-administration/exam-timetables.html')
+img = qrcode.make('https://www.youtube.com')
 type(img)
-img.save("acca_routine.png")
+img.save("YouTube.png")
