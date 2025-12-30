@@ -1,5 +1,10 @@
 import qrcode
 
-img = qrcode.make('https://www.youtube.com')
-type(img)
-img.save("YouTube.png")
+data = input("Enter the text or url: ").strip()
+filename = input("Enter the filename: ").strip()
+
+qr = qrcode.QRCode(box_size = 10, border = 4)
+qr.add_data(data)
+image = qr.make_image(fill_color = 'black', black_color = 'white')
+image.save(filename)
+print(f"QR code saved as {filename}")
