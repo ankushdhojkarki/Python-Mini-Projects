@@ -9,7 +9,7 @@ import threading
 import time
 import os
 
-# --- AESTHETIC CONFIGURATION ---
+
 ctk.set_appearance_mode("Dark") 
 
 class AutumnQRPro(ctk.CTk):
@@ -21,35 +21,34 @@ class AutumnQRPro(ctk.CTk):
         self.logo_path = None
         self.animating = False
 
-        # --- BACKGROUND SETUP ---
+        # ---BACKGROUND SETUP---
         bg_image_path = "background.png"
         if os.path.exists(bg_image_path):
             bg_image = Image.open(bg_image_path)
-            # CTkImage handles HighDPI scaling to prevent blurriness
+
             self.bg_photo = ctk.CTkImage(light_image=bg_image, dark_image=bg_image, size=(500, 750))
             self.bg_label = ctk.CTkLabel(self, image=self.bg_photo, text="")
             self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-        # --- MAIN CONTAINER (TRANSLUCENT) ---
-        # fg_color="transparent" allows the background image to be seen
+        # --- MAIN CONTAINER ---
         self.main_frame = ctk.CTkFrame(
             self, 
             fg_color="transparent", 
             border_width=3, 
-            border_color="#8B4513" # Wood brown border
+            border_color="#8B4513" 
         )
         self.main_frame.place(relx=0.5, rely=0.5, anchor="center", relwidth=0.85, relheight=0.9)
         self.main_frame.grid_columnconfigure(0, weight=1)
 
-        # --- STARDEW VIBE ELEMENTS ---
+
         self.title_label = ctk.CTkLabel(
             self.main_frame, text="🍂 HARVEST QR", 
             font=ctk.CTkFont(family="Georgia", size=32, weight="bold"),
-            text_color="#F39C12" # Stardew Gold
+            text_color="#F39C12" 
         )
         self.title_label.grid(row=0, column=0, pady=(40, 5))
 
-        # URL Entry with semi-dark background for readability against busy backgrounds
+        # URL Entry with semi-dark background
         self.url_entry = ctk.CTkEntry(
             self.main_frame, placeholder_text="Enter link to harvest...", 
             width=300, height=45, border_color="#D35400", fg_color="#2D1E17"
@@ -75,7 +74,7 @@ class AutumnQRPro(ctk.CTk):
         self.loading_label = ctk.CTkLabel(self.main_frame, text="", font=("Arial", 16), text_color="#F1C40F")
         self.loading_label.grid(row=4, column=0)
 
-        # Preview Frame - slightly dark background to make the white QR pop
+        # Preview Frame 
         self.preview_frame = ctk.CTkFrame(
             self.main_frame, width=220, height=220, 
             fg_color="#2D1E17", border_width=2, border_color="#F39C12"
@@ -106,11 +105,10 @@ class AutumnQRPro(ctk.CTk):
         self.submit_btn.configure(state="disabled")
         self.animating = True
         self.animate_loading()
-        # Use a daemon thread so the app can close even if generation is running
         threading.Thread(target=self.generate_qr, daemon=True).start()
 
     def generate_qr(self):
-        time.sleep(2) # Aesthetic delay for the "Stardew" feel
+        time.sleep(2) 
         data = self.url_entry.get()
         save_path = filedialog.asksaveasfilename(defaultextension=".png", title="Save Harvested QR")
         
@@ -131,7 +129,7 @@ class AutumnQRPro(ctk.CTk):
             )
             img.save(save_path)
             
-            # Create the CTkImage for the preview
+
             preview_img = img.resize((200, 200))
             self.tk_preview = ctk.CTkImage(light_image=preview_img, dark_image=preview_img, size=(200, 200))
             
