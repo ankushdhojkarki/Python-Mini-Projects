@@ -10,4 +10,4 @@ class Expense:
         
     
     def __str__(self):
-        return f"Expense: {self.date} | {self.time} | | {self.name} {self.category} | ${self.amount:.2f} "
+        return f"\nExpense: {self.date} | {self.time} | {self.name} | {self.category} | ${self.amount:.2f} "
