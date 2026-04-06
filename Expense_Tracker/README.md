@@ -1,28 +1,30 @@
 # 💰 Expense Tracker – A Python Program to Manage Expenses
 
-A terminal-based expense tracker built in Python for tracking daily expenses. Features include expense categorization, monthly summaries, and visual charts using Matplotlib and Seaborn. I’m starting with a basic terminal-based version in Python, and my long-term goal is to evolve this into a fully functional web app using Django (and eventually deploy it for real-world use).
+A terminal-based expense tracker built in Python using Object-Oriented Programming (OOP) for tracking daily expenses in NPR (Nepali Rupees). Features include expense categorization, budget tracking, monthly summaries, and beautiful visual charts using Matplotlib and Seaborn.
 
-This project is not just about the final product — it’s about the journey of learning and building.
+My long-term goal is to evolve this into a fully functional web app using Django and deploy it for real-world use.
+This project is not just about the final product — it's about the journey of learning and building.
 
 ---
 ## 🏗️ project Vision
-- Start with a Python terminal-based expense tracker
+- ✔️ Start with a Python terminal-based expense tracker
 
-- Add features step by step (logging, categorizing, summaries, etc.)
+- ⬜ Add more detailed summaries and expense categories
 
-- Transition into a Django-powered web application
+- ⬜ Transition into a Django-powered web application
 
-- Deploy it so it can be accessed online as a real tool
+- ⬜ Add authentication and user accounts
+
+- ⬜ Deploy fully functional app online
 
 ## 📌 How It Works
 
-- Prompts the user with a menu of options:
-  - Add a new expense (with description and amount).
-  - View all recorded expenses.
-  - Calculate the total amount spent.
-  - Exit the program.
-- Stores expenses in memory during the session.
-- Displays expenses in a clean and readable format.
+  - Run the program in your terminal
+  - Enter your expense name and amount
+  - Select a category from the menu
+  - Select a category from the menu
+  - A full summary is shown — total spent, remaining budget, daily budget
+  - A beautiful pie chart displays your spending by category
 
 ---
 
@@ -47,18 +49,23 @@ This project is not just about the final product — it’s about the journey of
 
 ## 🎯 Current Features (Terminal Version)
 
-- Add expenses with amount, category and description
-- View all expenses in a clean table format
-- Monthly summary with total and daily average
-- Visual charts (pie chart, bar chart) using Matplotlib & Seaborn
-- Data saved to JSON file — nothing lost when program closes
+- ✅ Add expenses with name, amount, category — auto date & time recorded
+- ✅ 8 expense categories to choose from
+- ✅ Saves all expenses to a CSV file — data is never lost
+- ✅ Summary showing expenses by category in NPR
+- ✅ Total spent and remaining budget calculation
+- ✅ Daily budget calculation based on remaining days in the month
+- ✅ Beautiful pie chart using Matplotlib & Seaborn (pastel colors, shadow effect)
 
-## 🚀 Roadmap
-✔️ Build terminal-based version with Python
-⬜ Add more detailed summaries and expense categories
-⬜ Transition into Django web app
-⬜ Add authentication and user accounts
-⬜ Deploy fully functional app online
+## 🛠️ Tech Stack
+
+- Python — core language
+- OOP — Expense class with auto date/time
+- CSV — data storage
+- Matplotlib — pie chart visualization
+- Seaborn — color palette and styling
+- Numpy — numerical operations
+- datetime & calendar — date calculations
 
 ## 🌱 Why This Project?
 This is more than a mini-project — it’s my learning journey.
