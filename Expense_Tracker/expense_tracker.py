@@ -4,6 +4,7 @@ import calendar
 
 def main():
     print(f"\n{'-'*15} Expense Tracker {'-'*15}\n")
+
     expense_file = "Expense_Tracker/expenses.csv"
     budget = 2000
 
@@ -77,13 +78,13 @@ def summarize_expenses(expense_file, budget):
     
     print("\nExpenses By Category:")
     for key, amount in amount_by_category.items():
-        print(f"  {key}: ${amount:.2f}")
+        print(f"  {key}: Rs.{amount:.2f}")
     
     total_spent = sum([x.amount for x in expenses])
-    print(f"\n💸 Total Spent: ${total_spent:.2f}")
+    print(f"\n💸 Total Spent: Rs.{total_spent:.2f}")
 
     remaining_budget = budget - total_spent
-    print(f"✅ Remaining Budget: ${remaining_budget:.2f}")
+    print(f"✅ Remaining Budget: Rs.{remaining_budget:.2f}")
 
     # Get the current date
     now = datetime.datetime.now()
@@ -95,7 +96,7 @@ def summarize_expenses(expense_file, budget):
     remaining_days = days_in_month - now.day
 
     daily_budget = remaining_budget / remaining_days
-    print(f"👉 Daily Budget: ${daily_budget:.2f}")
+    print(f"👉 Daily Budget: Rs.{daily_budget:.2f}")
 
 if __name__ == "__main__":
     main()
