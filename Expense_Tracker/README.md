@@ -1,7 +1,6 @@
 # 💰 Expense Tracker – A Python Program to Manage Expenses
 
-This is my personal project where I’m building an Expense Tracker step by step.
-I’m starting with a basic terminal-based version in Python, and my long-term goal is to evolve this into a fully functional web app using Django (and eventually deploy it for real-world use).
+A terminal-based expense tracker built in Python for tracking daily expenses. Features include expense categorization, monthly summaries, and visual charts using Matplotlib and Seaborn. I’m starting with a basic terminal-based version in Python, and my long-term goal is to evolve this into a fully functional web app using Django (and eventually deploy it for real-world use).
 
 This project is not just about the final product — it’s about the journey of learning and building.
 
@@ -29,7 +28,8 @@ This project is not just about the final product — it’s about the journey of
 
 ## 📁 Current Files Included
 
-- `expense_tracker.py` — The main script to manage expenses.
+- `expense_tracker.py` — Main application
+- `expenses.json` — Where your expense data is stored (auto-created)
 
 ---
 
@@ -37,18 +37,21 @@ This project is not just about the final product — it’s about the journey of
 
 1. Make sure you have Python installed.
 2. Save the script as `expense_tracker.py`.
-3. Open your terminal or command prompt.
-4. Run the script using: `python expense_tracker.py`.
-5. Follow the menu prompts to add or view expenses.
+3. Install required libraries:
+   pip install numpy, matplotlib & seaborn
+4. Open your terminal or command prompt.
+5. Run the script using: `python expense_tracker.py`.
+6. Follow the menu prompts to add or view expenses.
 
 ---
 
 ## 🎯 Current Features (Terminal Version)
 
-- Add expenses with description and amount.
-- View all saved expenses in a list format.
-- Display the total of all expenses.
-- Simple and beginner-friendly structure using lists/dictionaries.
+- Add expenses with amount, category and description
+- View all expenses in a clean table format
+- Monthly summary with total and daily average
+- Visual charts (pie chart, bar chart) using Matplotlib & Seaborn
+- Data saved to JSON file — nothing lost when program closes
 
 ## 🚀 Roadmap
 ✔️ Build terminal-based version with Python
