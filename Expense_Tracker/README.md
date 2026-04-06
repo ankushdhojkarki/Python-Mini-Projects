@@ -28,10 +28,16 @@ This project is not just about the final product — it's about the journey of l
 
 ---
 
-## 📁 Current Files Included
+## 📁 Project Structure
 
-- `expense_tracker.py` — Main application
-- `expenses.json` — Where your expense data is stored (auto-created)
+```
+expense_tracker/
+│
+├── expense.py          # Expense class (OOP)
+├── expense_tracker.py  # Main application logic
+├── expenses.csv        # Auto-generated data file (created on first run)
+└── README.md
+```
 
 ---
 
