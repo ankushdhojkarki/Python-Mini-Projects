@@ -1,12 +1,16 @@
 from expense import Expense
 import datetime
 import calendar
+import matplotlib.pyplot as plt
+import re
+import seaborn as sns
+import numpy as np
 
 def main():
     print(f"\n{'-'*15} Expense Tracker {'-'*15}\n")
 
     expense_file = "Expense_Tracker/expenses.csv"
-    budget = 2000
+    budget = 25000
 
     # Get user input for expense
     expense = get_user_expense()
@@ -41,6 +45,7 @@ def get_user_expense():
 
         if selected_index in range(len(expense_category)):
             selected_category = expense_category[selected_index]
+
             new_expense = Expense(name = expense_name, category = selected_category, amount = expense_amount )
             return new_expense
         else:
@@ -97,6 +102,37 @@ def summarize_expenses(expense_file, budget):
 
     daily_budget = remaining_budget / remaining_days
     print(f"👉 Daily Budget: Rs.{daily_budget:.2f}")
+
+    #Pie Chart 
+    #Color palette
+    categories = [re.sub(r'[^\x00-\x7F]', '', key).strip() for key in amount_by_category.keys()]
+    amounts = list(amount_by_category.values())
+
+    colors = sns.color_palette("pastel")
+    fig, ax = plt.subplots(figsize=(8, 6))
+    wedges, texts, autotexts = ax.pie(
+        amounts,
+        labels=categories,
+        autopct="%1.1f%%",
+        colors=colors,
+        startangle=90,
+        wedgeprops={"edgecolor": "white", "linewidth": 2},
+        shadow=True
+    )
+
+    # Make percentage text bold
+    for autotext in autotexts:
+        autotext.set_fontweight("bold")
+
+    # Make label text bigger
+    for text in texts:
+        text.set_fontsize(11)
+
+    ax.set_title("Expenses By Category", fontsize=16, fontweight="bold", pad=20)
+
+    plt.tight_layout()
+    plt.show()
+
 
 if __name__ == "__main__":
     main()
