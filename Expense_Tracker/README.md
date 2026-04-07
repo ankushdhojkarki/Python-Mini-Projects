@@ -51,6 +51,7 @@ Expenses By Category:
 👉 Daily Budget: Rs.1035.42
 
 
+
 ## 📁 Project Structure
 
 ```
