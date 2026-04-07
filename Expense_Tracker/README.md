@@ -41,6 +41,7 @@ Select a category:
  ...
 
 Expenses By Category:
+
    🍔 Food: Rs.150.00
 
 💸 Total Spent: Rs.150.00
