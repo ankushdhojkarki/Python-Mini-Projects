@@ -32,6 +32,7 @@ This project is not just about the final product — it's about the journey of l
 --------------- Expense Tracker ---------------
 
 Enter expense name: Momo
+
 Enter the expense amount: 150
 
 Select a category:
