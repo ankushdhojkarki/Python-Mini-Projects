@@ -22,11 +22,30 @@ This project is not just about the final product — it's about the journey of l
   - Run the program in your terminal
   - Enter your expense name and amount
   - Select a category from the menu
-  - Select a category from the menu
   - A full summary is shown — total spent, remaining budget, daily budget
   - A beautiful pie chart displays your spending by category
 
 ---
+
+## 📊 Sample Output
+
+--------------- Expense Tracker ---------------
+
+Enter expense name: Momo
+Enter the expense amount: 150
+
+Select a category:
+ 1. 🍔 Food
+ 2. 🚌 Transport
+ ...
+
+Expenses By Category:
+   🍔 Food: Rs.150.00
+
+💸 Total Spent: Rs.150.00
+✅ Remaining Budget: Rs.24850.00
+👉 Daily Budget: Rs.1035.42
+
 
 ## 📁 Project Structure
 
@@ -46,7 +65,7 @@ expense_tracker/
 1. Make sure you have Python installed.
 2. Save the script as `expense_tracker.py`.
 3. Install required libraries:
-   pip install numpy, matplotlib & seaborn
+   pip install numpy matplotlib seaborn
 4. Open your terminal or command prompt.
 5. Run the script using: `python expense_tracker.py`.
 6. Follow the menu prompts to add or view expenses.
