@@ -42,10 +42,12 @@ Select a category:
 
 Expenses By Category:
 
-   🍔 Food: Rs.150.00
+     🍔 Food: Rs.150.00
 
 💸 Total Spent: Rs.150.00
+
 ✅ Remaining Budget: Rs.24850.00
+
 👉 Daily Budget: Rs.1035.42
 
 
